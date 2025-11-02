@@ -1,5 +1,6 @@
 export async function submitTicket(ticket) {
-const res = await fetch('http://localhost:5678/webhook/it-support-request', {
+const res = await fetch(' https://b71c95e8b63c.ngrok-free.app/webhook/it-support-request', {
+
 method: 'POST',
 headers: { 'Content-Type': 'application/json' },
 body: JSON.stringify(ticket),
